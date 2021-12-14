@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h2 class="title-words">Movies</h2>
+        <form class="form">
+            <input class="input" type="search" placeholder="search...">
+
+            <select class="select">
+                <option value="All">All</option>
+            </select>
+
+            <select class="filter">
+                <option value="a_z">A_Z</option>
+                <option value="z_a">Z_A</option>
+                <option value="new_old">New_Old</option>
+                <option value="old_new">Old_New</option>
+            </select>
+
+            <button class="btn">submit</button>
+
+        </form>
+
+        <div class="modal">
+           <div class="box">
+            <p class="text">Modal</p>
+
+            <button class="exit">X</button>
+           </div>
+        </div>
+
+        <ul class="menu"></ul>
+
+        <template class="template">
+            <li class="item">
+                <img class="img" src="https://picsum.photos/280/300" alt="..">
+                <h2 class="title">name</h2>
+                <time class="time" datetime="19.01.1970">19.01.1970</time>
+                <button class="btn2">button</button>
+            </li>
+        </template>
+
+    </div>
+
+<script src="./js/films.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
